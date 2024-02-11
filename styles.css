@@ -165,6 +165,11 @@ main img {
   letter-spacing: 5px;
 }
 
+li {
+  color: black;
+  font-size: 0.8rem;
+}
+
 .exponente h3 {
   color: rgb(24, 224, 127);
   text-transform: uppercase;
@@ -246,10 +251,6 @@ main img {
 }
 
 @media (max-width: 628px) {
-  body {
-    /* padding: 0 100px 0 0; */
-  }
-
   #navbar {
     flex-direction: row;
   }
@@ -264,20 +265,21 @@ main img {
 
   .nav-link {
     text-align: left;
-    color: white;
+    color: black;
+  }
+
+  .titulos-section {
+    font-size: 2rem;
   }
 }
 
 @media (max-width: 450px) {
   .titulos-section {
-    font-size: 2em;
+    font-size: 1.5rem;
   }
 }
 
 @media (max-width: 400px) {
-  body {
-  }
-
   .main-section {
     background-color: transparent;
   }
@@ -289,9 +291,11 @@ main img {
   .main-section p {
     font-size: 0.7em;
   }
+}
 
-  .title-disciplinas {
-    font-size: 10em;
+@media (max-width: 350px) {
+  .titulos-section {
+    font-size: 1rem;
   }
 }
 
